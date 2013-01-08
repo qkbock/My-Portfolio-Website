@@ -1,0 +1,432 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+
+
+
+
+/* Universal */
+
+body{
+	margin-bottom:20px;
+	font-family: 'Quicksand', sans-serif;
+	width: 100%;
+	background-image: url('images/topWave.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+body{
+	background-image:url('images/topWave.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: 100%;
+}
+	
+		
+body a:link, a:visited{
+	font-family: 'Quicksand', sans-serif;
+	text-decoration:none;
+	color:black;
+}
+
+body a:hover{
+	text-decoration:none;
+	color:#04d899;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;	
+	font-size: 90%;
+	text-decoration:none;
+	/* font-size:95%; */
+}
+
+ol, ul{
+	list-style: none outside none;
+	text-decoration:none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+footer{
+	clear:both;
+	margin-top:10px;
+	margin-bottom:50px;
+	margin-left: 10px;
+	margin-right:20px;
+	padding-bottom: 45px;
+	height:40px;
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;	
+	font-size: 85%;
+	background: white;
+}
+
+img#footerLine{
+	width: 100%;
+	height: 1.5px;
+	margin-top: 5px;
+	margin-left: 0px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+
+}
+
+
+
+
+
+
+
+/* Top of Page */
+
+section#topNameClearBox{
+	width: 100%;
+	height: 400px;
+	background: none;
+}
+
+img#topName{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 15%;
+	
+
+}		
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navigation Menus */
+
+nav.topMenu{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 7px;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	filter: alpha(opacity=50);
+	opacity: .8;
+}
+
+nav.topMenu a{
+	color: #033866;
+	opacity: 50;
+}
+
+nav.topMenu a:hover{
+	color:#10a1e9;
+	opacity: 50;
+}
+
+img#menuLine{
+	width: 95%;
+	height: 2px;
+	margin-top: 5px;
+}
+	
+a#topMenuHome{
+	margin-left: 20px;
+	font-size:175%;
+}
+
+a#topMenuWork{
+	position:relative;
+	font-size: 122%;
+	left:65%;
+}
+
+a#topMenuResume{
+	position:relative;
+	font-size: 122%;
+	left:68%;
+}
+
+
+nav.sideMenu{
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:10px;
+	width:150px;
+	font-size: 92%;
+	background: white;
+}
+
+nav.resumeSideMenu{
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:10px;
+	width:150px;
+	font-size: 92%;
+	background: white;
+}
+
+li#everythingButton {
+	margin-bottom: 12.5px;
+}
+
+nav.sideMenu li a:hover{
+	font-style: italic;	
+}
+
+
+
+
+
+
+
+
+/* Everything Grid */
+
+section.work{
+	position: absolute;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	margin-left: 200px;
+	margin-right: 0px;
+	width: 82%;
+	height: 800px;
+	background: white;
+}
+
+article.year{
+	margin-top:10px;
+	margin-bottom:20px;
+	width: 100%
+	
+}
+
+h1.h1sGridView{
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+.work img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height:188px;
+	width:188px;
+	box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
+	webkit-box-shadow: 2 3px 8px rgba(0, 0, 0, 0.25);
+	moz-box-shadow: 2 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+/**** Isotope filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+
+
+
+
+/* Sorted Grids */
+
+h1.category{
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+/* Content Pages */
+
+h1.projectHeading{
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	font-Size: 115%;
+
+}
+
+section.project{
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 82%;
+}
+
+article.content{
+	margin-top: 10px;
+	margin-bottom: 20px;	
+}
+
+article.content h1.projectHeading a{
+	font-family: 'Quicksand', sans-serif;
+}
+
+article.content a{
+	font-family: 'Quattrocento', serif;
+}
+
+article.content h2.contentHeading{
+	margin-top: 35px;
+	margin-bottom: -20px;
+	margin-left: 10px;
+	margin-right: 0px;
+	width: 650px;
+	font-style:italic;
+	font-family: 'Quattrocento', serif;
+}
+
+article.content p{
+	margin-top: 35px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	width: 650px;
+	font-size: 90%;
+	font-family: 'Quattrocento', serif;
+	line-height:125%
+}
+
+article.content p.artTitle{
+	margin-top: 0px;
+	font-family: 'Quicksand', sans-serif;
+	font-style:italic;
+	font-size: 70%;	
+	line-height: 100%;
+}
+
+.project img{
+	width: 700px;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right:10px;
+	}
+
+img.relatedWork{
+	width:200px;
+	box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
+	webkit-box-shadow: 2 3px 8px rgba(0, 0, 0, 0.25);
+	moz-box-shadow: 2 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+img#dog{
+	width: 524px;
+}
+
+img#fingerPainting{
+	width: 505px;
+}
+
+img#bigGrid{
+	width: 520px;
+}
+
+img#wineGlasses{
+	width: 520px;
+}
+
+img#stillLife2{
+	width: 610px;
+}
+
+img#ribbon{
+	width: 250px;
+}
+
+img.contentVertical{
+	width: 480px;
+}
+
+
+img.webScreenShot{
+	box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+img.wireframes{
+	width: 500px;
+}
+
+img.HPGamePrecedents{
+	width: 300px;
+}
+
+
+
+/* Resume */
+
+
+section.resume{
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 200px;
+	margin-right: 0px;
+	width: 82%;
+}
+
+nav.resumeSideMenu a:hover{
+	font-style: italic;	
+	color:#049999;
+}
