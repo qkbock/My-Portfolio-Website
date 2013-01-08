@@ -29,10 +29,10 @@
 			</h1>
 			
 			<p>
-			<a href="http://www.quincybock.com" target="_blank">Click here to see the actual site.</a>
+			<a href="http://www.quincybock.com/flashSite" target="_blank">Click here to see the actual site.</a>
 			</p>
-			<a href="http://www.quincybock.com" target="_blank"><img class="webScreenShot" src="images/interaction/flashPortfolio.png"></a>
-			<a href="http://www.quincybock.com" target="_blank"><img class="webScreenShot" src="images/interaction/flashPortfolio2.png"></a>
+			<a href="http://www.quincybock.com/flashSite" target="_blank"><img class="webScreenShot" src="images/interaction/flashPortfolio.png"></a>
+			<a href="http://www.quincybock.com/flashSite" target="_blank"><img class="webScreenShot" src="images/interaction/flashPortfolio2.png"></a>
 
 		
 		
