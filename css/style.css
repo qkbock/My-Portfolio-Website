@@ -55,7 +55,7 @@ body a:hover{
 
 h1 {
 	font-family: 'Quicksand', sans-serif;	
-	font-size: 90%;
+	font-size: 95%;
 	text-decoration:none;
 	/* font-size:95%; */
 }
@@ -78,7 +78,7 @@ footer{
 	height:40px;
 	width: 100%;
 	font-family: 'Quicksand', sans-serif;	
-	font-size: 85%;
+	font-size: 90%;
 	background: white;
 }
 
@@ -183,7 +183,7 @@ nav.sideMenu{
 	margin-left:20px;
 	margin-right:10px;
 	width:150px;
-	font-size: 92%;
+	font-size: 98%;
 	background: white;
 }
 
@@ -194,7 +194,7 @@ nav.resumeSideMenu{
 	margin-left:20px;
 	margin-right:10px;
 	width:150px;
-	font-size: 92%;
+	font-size: 98%;
 	background: white;
 }
 
@@ -343,7 +343,7 @@ article.content p{
 	margin-left: 10px;
 	margin-right: 0px;
 	width: 650px;
-	font-size: 90%;
+	font-size: 95%;
 	font-family: 'Quattrocento', serif;
 	line-height:125%
 }
@@ -352,8 +352,19 @@ article.content p.artTitle{
 	margin-top: 0px;
 	font-family: 'Quicksand', sans-serif;
 	font-style:italic;
-	font-size: 70%;	
+	font-size: 85%;	
 	line-height: 100%;
+}
+
+a#codeLink{
+	color: #F10BE8;
+}
+a#codeLink:visited{
+	color: #8C0BF1;
+}
+
+a#codeLink:hover{
+	color: #8C0BF1;
 }
 
 .project img{

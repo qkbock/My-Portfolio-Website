@@ -36,15 +36,15 @@
 			2012
 			</h1>
 				<a class="interaction" href="algoAnimation.php"><img src="images/interaction/thumbs/algoAnimation.png" alt="Algorithmic Animation" /></a>
-				<a class="interaction design" href="calmTechBracelet.php"><img src="images/interaction/thumbs/calmTechBracelet.png" alt="Calm Technology Bracelet Concept and Prototype" /></a>
+				<a class="design interaction" href="calmTechBracelet.php"><img src="images/design/thumbs/calmTechBracelet.png" alt="Calm Technology Bracelet Concept and Prototype" /></a>
 				<a class="photography" href="digitalLongExposure.php"><img src="images/photography/thumbs/digitalLongExposure.png" alt="Digital Long Exposure Photography" /></a>
 				<a class="interaction" href="experimentsInCode.php"><img src="images/interaction/thumbs/experimentsInCode.png" alt="Experiments in Code" /></a>
-				<a class="interaction design" href="interactiveSledder.php"><img src="images/interaction/thumbs/interactiveSledder.png" alt="Interactive Physics Learning Game" /></a><a class="graphic" href="bootcampDataViz.php"><img src="images/graphic/thumbs/bootcampDataViz.png" alt="Data Visualization" /></a>
-				<a class="graphic" href="USASEFgraphic.php"><img src="images/graphic/thumbs/USASEFgraphic.png" alt="Graphic Design for the USA Science and Engineering Festival" /></a><a class="graphic" href="bootcampDataViz.php"><img src="images/graphic/thumbs/bootcampDataViz.png" alt="Data Visualization" /></a>
+				<a class="interaction design" href="interactiveSledder.php"><img src="images/interaction/thumbs/interactiveSledder.png" alt="Interactive Physics Learning Game" /></a>
+				<a class="graphic" href="USASEFgraphic.php"><img src="images/graphic/thumbs/USASEFgraphic.png" alt="Graphic Design for the USA Science and Engineering Festival" /></a>
 				<a class="interaction design photography" href="publicIntervention.php"><img src="images/interaction/thumbs/publicIntervention.png" alt="Public Intervention" /></a>
 				<a class="design" href="selfOrganizingSystem.php"><img src="images/design/thumbs/selfOrganizingSystem.png" alt="Self-Organizing System" /></a>
-				<a class="graphic" href="waterDataViz.php"><img src="images/graphic/thumbs/waterDataViz.png" alt="Watre Data Visualization" /></a>
-				<a class="design" href="waterSimulationExperiments.php"><img src="images/design/thumbs/waterSimulationExperiments.png" alt="Water Simulation Experiments" /></a>
+				<a class="graphic" href="waterDataViz.php"><img src="images/graphic/thumbs/waterDataViz.png" alt="Water Data Visualization" /></a>
+				<a class="design" href="waterSimulationExperiments.php"><img src="images/design/thumbs/waterSimulationExperiments.gif" alt="Water Simulation Experiments" /></a>
 				<a class="interaction" href="yawning.php"><img src="images/interaction/thumbs/yawning.png" alt="Yawning Application" /></a>
 				<a class="interaction" href="bootcampHarryPotterGame.php"><img src="images/interaction/thumbs/bootcampHarryPotterGame.png" alt="8 Bit Harry Potter Game" /></a>
 				<a class="graphic" href="bootcampDataViz.php"><img src="images/graphic/thumbs/bootcampDataViz.png" alt="Data Visualization" /></a>
