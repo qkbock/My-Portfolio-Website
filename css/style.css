@@ -45,12 +45,12 @@ body{
 body a:link, a:visited{
 	font-family: 'Quicksand', sans-serif;
 	text-decoration:none;
-	color:black;
+	color:#04d899;
 }
 
 body a:hover{
 	text-decoration:none;
-	color:#04d899;
+	color:#04D0D8;
 }
 
 h1 {
@@ -68,20 +68,31 @@ ol, ul{
 	border: 0;
 }
 
-footer{
+p#footer{
 	clear:both;
 	margin-top:10px;
 	margin-bottom:50px;
 	margin-left: 10px;
 	margin-right:20px;
-	padding-bottom: 45px;
 	height:40px;
 	width: 100%;
 	font-family: 'Quicksand', sans-serif;	
 	font-size: 90%;
 	background: white;
+	color: #033866;
 }
 
+hr#footer{
+	height: 1px;
+	border: none;
+	background-color: #10a1e9;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+/* 
 img#footerLine{
 	width: 100%;
 	height: 1.5px;
@@ -92,6 +103,7 @@ img#footerLine{
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 }
+ */
 
 
 
@@ -202,8 +214,20 @@ li#everythingButton {
 	margin-bottom: 12.5px;
 }
 
+nav.sideMenu li a{
+	text-decoration:none;
+	color:black;
+}
+
+nav.sideMenu li a:visited{
+	text-decoration:none;
+	color:black;
+}
+
 nav.sideMenu li a:hover{
-	font-style: italic;	
+	font-style: italic;
+	text-decoration:none;
+	color:#04d899;	
 }
 
 
@@ -337,6 +361,17 @@ article.content h2.contentHeading{
 	font-family: 'Quattrocento', serif;
 }
 
+article.content h3{
+	margin-top: 35px;
+	margin-bottom: -20px;
+	margin-left: 20px;
+	margin-right: 0px;
+	width: 650px;
+	font-style:italic;
+	font-weight: 700;
+	font-family: 'Quattrocento', serif;
+}
+
 article.content p{
 	margin-top: 35px;
 	margin-bottom: 0px;
@@ -359,8 +394,9 @@ article.content p.artTitle{
 a#codeLink{
 	color: #F10BE8;
 }
+
 a#codeLink:visited{
-	color: #8C0BF1;
+	color: #F10BE8;
 }
 
 a#codeLink:hover{
@@ -423,6 +459,108 @@ img.HPGamePrecedents{
 	width: 300px;
 }
 
+img.isfs{
+	width: 550px;
+}
+
+img#Slide01, img#Slide02, img#Slide05, img#Slide06, img#Slide07, img#Slide08, 
+img#Slide10, img#Slide12, img#Slide13, img#Slide14, img#Slide15, img#Slide17,
+img#brick, img#computerTicker, img#finalPrototype, img#hourGlass, img#prototype1,
+img#prototypeInside, img#wallPaper{
+	width: 500px;
+}
+img#Slide03{
+	width: 429px;
+}
+img#Slide04{
+	width: 365px;
+}
+img#Slide09{
+	width: 434px;
+}
+img#Slide11{
+	width: 275px;
+}
+img#drawings{
+	width: 316px;
+}
+img#prototype2{
+	width: 311px;
+}
+
+/* Major Studio 1 Page */
+
+section#projectProposal ul{
+	margin-left: 10px;
+	font-family: 'Quattrocento', serif;
+	font-size: 95%;
+}
+
+section#projectProposal ul li{
+	margin-left: 40px;
+	font-family: 'Quattrocento', serif;
+	font-size: 95%;
+}
+
+section#projectProposal{
+	width: 650px;
+	border: 1px dotted;
+	padding: 8px; 
+	margin-bottom: 10px; 
+}
+
+section#projectProposal p#smallMargin{
+	margin-top: 10px;
+}
+
+article#research{
+	width: 650px;
+	padding: 8px; 
+	margin-bottom: 10px; 
+}
+
+article#research ul{
+	margin-left: 10px;
+	font-family: 'Quattrocento', serif;
+	font-size: 95%;
+}
+
+article#research ul li{
+	margin-left: 40px;
+	font-family: 'Quattrocento', serif;
+	font-size: 95%;
+}
+
+hr.small{
+	height: 1px;
+	border: none;
+	background-color: black;
+	margin-right: 840px;
+	margin-left: 280px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+hr.medium{
+	height: 2.5px;
+	border: none;
+	background-color: black;
+	margin-right: 840px;
+	margin-left: 280px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+hr.large {
+	height: 5px;
+	border: none;
+	background-color: black;
+	margin-right: 840px;
+	margin-left: 280px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
 
 
 /* Resume */
@@ -435,6 +573,14 @@ section.resume{
 	margin-left: 200px;
 	margin-right: 0px;
 	width: 82%;
+}
+
+nav.resumeSideMenu a{
+	color:black;
+}
+
+nav.resumeSideMenu a:visited{
+	color:black;
 }
 
 nav.resumeSideMenu a:hover{
